@@ -1,0 +1,127 @@
+.sect3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:78vh;
+    padding-top: 100px;
+    gap:100px;
+    margin-bottom: 50px;
+}
+.sect3-1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect3-2{
+    display:flex;
+    gap:50px;
+}
+.box2{
+    width:400px;
+    border:2px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    border-radius: 15px;
+    gap:15px;
+    background-color: var(--box-bg);
+    transition: background-color 0.3s ease;
+}
+.skill1{
+    display: flex;
+    align-items: start;
+    gap:10px;
+}
+.skill1-2{
+    display: flex;
+    flex-direction: column;
+}
+.skill1 img{
+    width:30px;
+}
+.skill1-2 >:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.progress {
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    transition: width 1s ease;
+}
+.box2 >:nth-child(1){
+    font-size:24px;
+    font-weight: 600;
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:40px;
+}
+@media(max-width:1024px){
+    .sect3{
+        padding-bottom: 150px;
+        height:100%;
+    }
+.sect3-2{
+    flex-direction: column;
+}
+.box2{
+    width:500px;
+    gap:15px;
+}
+.box2 >:nth-child(1){
+    font-size:28px;
+}
+.skills{
+    gap:50px;
+}
+.skill1{
+    gap:15px;
+}
+.skill1 img{
+    width:30px;
+}
+.skill1-2 >:nth-child(1){
+    font-size: 18px;
+}
+}
+@media(max-width:767px){
+    .sect3{
+      padding-top: 0px;
+    }
+.sect3-2{
+    flex-direction: column;
+    padding-bottom: 0px;
+}
+.box2{
+    width:600px;
+    gap:35px;
+}
+.box2 >:nth-child(1){
+    font-size:20px;
+}
+.skills{
+    gap:25px;
+}
+.skill1{
+    gap:10px;
+}
+.skill1 img{
+    width:28px
+}
+.skill1-2 >:nth-child(1){
+    font-size: 15px;
+}
+}
