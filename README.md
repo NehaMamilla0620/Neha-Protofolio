@@ -3,7 +3,7 @@
 A clean, responsive portfolio website built from scratch to showcase my projects, skills, and experience.
 
 ## 🚀 Live Demo
-[View Live Site](https://github.io)
+[View Live Site]https://nehamamilla0620.github.io/Neha-Protofolio/)
 
 ## 🛠️ Tech Stack
 * **HTML5**: Semantic structure for better SEO.
